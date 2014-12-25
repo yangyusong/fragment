@@ -1,0 +1,45 @@
+<ul id='delegatenode'>
+	<li>a</li>
+	<li>b</li>
+	<li>c</li>
+</ul>
+
+<ul>
+	<li>a</li>
+	<li>b</li>
+	<li>c</li>
+</ul>
+        <div id='once'></div>
+        <div id='show_event'></div>
+<script type='text/javascript' src="../fragment.js"></script>
+<script type='text/javascript'>
+var aFunc = function(){
+	console.log('show once');
+    document.getElementById('once').innerHTML = 'show once';
+	return 'show once';
+}
+
+
+var onceAFunc = once(aFunc);
+onceAFunc();
+onceAFunc();
+onceAFunc();
+onceAFunc();
+onceAFunc();
+
+
+function show (nodeName, event) {
+	var ele = document.getElementsByTagName(nodeName);
+	if(ele.length > 0)
+	{
+		console.log(ele[0].nodeName);
+        document.getElementById('show_event').innerHTML += ele[0].nodeName.toLowerCase() + "&nbsp;";
+	}
+}
+
+nodes = document.getElementById('delegatenode');
+eventDelegate(nodes, 'li', show);
+
+</script>
+
+

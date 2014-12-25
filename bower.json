@@ -1,0 +1,23 @@
+{
+  "name": "fragment",
+  "version": "0.0.0",
+  "authors": [
+    "yangyusong <yys159258@126.com>"
+  ],
+  "description": "piece of useful tool",
+  "main": "fragment.js",
+  "keywords": [
+    "work",
+    "once",
+    "event",
+    "delegate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
