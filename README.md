@@ -8,10 +8,13 @@ Contain tool such as
 ## How to use this tool
 
 ### Use bower install
-```$bower install fragmentjs
+``` javascript
+$bower install fragmentjs
 ```
+
 ### Use npm install
-```$npm install fragmentjs
+``` javascript
+$npm install fragmentjs
 ```
 ### Download the zip file.
 Now npm and bower not contain the test file, I well fix it. fragment.js is the only file you need, but the test file can tell you how to use. So if you need, just download.

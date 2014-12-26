@@ -1,6 +1,6 @@
 {
   "name": "fragment",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "authors": [
     "yangyusong <yys159258@126.com>"
   ],
@@ -17,7 +17,6 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
     "tests"
   ]
 }
